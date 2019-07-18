@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+}
+
+.leftContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.rightContainer {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    min-height: 500px;
+    max-height: 500px;
+    overflow-y: auto;
+    padding-left: 20px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
