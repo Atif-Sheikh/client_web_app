@@ -8,3 +8,9 @@
     background-color: rgb(139, 138, 138);
     margin: 20px;
 }
+
+.customBtn {
+    background: darkslategrey;
+    margin-left: 20px;
+    border: none;
+}

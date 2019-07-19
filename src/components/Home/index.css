@@ -1,7 +1,6 @@
 .main {
     display: flex;
     width: 100%;
-    align-items: center;
     justify-content: center;
     min-height: 500px;
 }
@@ -12,6 +11,8 @@
     flex-direction: column;
     min-height: 400px;
     max-height: 400px;
+    margin-top: 35px;
+
 }
 
 .rightContainer {
@@ -19,7 +20,7 @@
     flex: 3;
     flex-direction: column;
     min-height: 500px;
-    max-height: 500px;
+    max-height: 70vh;
     overflow-y: auto;
     padding-left: 20px;
 }
@@ -28,4 +29,8 @@
     width: 40px;
     height: 40px;
     border-radius: 20px;
+}
+
+.wrapper {
+    max-height: 30vh;
 }
